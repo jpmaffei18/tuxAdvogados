@@ -1,0 +1,24 @@
+<br>
+<br>
+
+<section class="cadastrados" id="cadastrados">
+<h3>Usuários Cadastrados:</h3>
+<ul class="clientes-list">
+  <li *ngFor="let usuario of usuarios" class="cliente-item">
+    ID: {{ usuario.id }} | Nome: {{ usuario.nome }} {{ usuario.sobrenome }} | CPF: {{ usuario.cpf }} | Idade: {{ usuario.idade }} | Endereço: {{ usuario.endereco }}
+  </li>
+</ul>
+<br>
+<br>
+
+
+<h3>Clientes com mais de 60 anos Cadastrados:</h3>
+<ul class="clientes-list">
+  <li *ngFor="let cliente of usuarios" class="cliente-item">
+    ID: {{ cliente.id }} | Nome: {{ cliente.nome }} {{ cliente.sobrenome }} | CPF: {{ cliente.cpf }} | Idade: {{ cliente.idade }} | Endereço: {{ cliente.endereco }}
+  </li>
+</ul>
+<br>
+
+</section>
+<br>

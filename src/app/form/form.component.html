@@ -1,0 +1,47 @@
+
+<section class="contact" id="clientes">
+  <div class="container">
+      <h1>Cadastro</h1>
+      <br>
+      <section>
+        <p>Preencha o formulário abaixo para Cadastrar:</p>
+        <form #form="ngForm" (ngSubmit)="cadastro(form)">
+
+          <div class="nome" style="float: left; text-align: left;">
+          <label for="">Nome:</label>
+          <input name="nome" type="text" id="nome" #nomeInput required ngModel>
+          </div>
+
+          <div class="sobrenome" style="float: right; text-align: left;">
+          <label for="">Sobrenome:</label>
+          <input name="sobrenome" type="text" id="sobrenome" #sobrenomeInput required ngModel>
+          </div>
+          <br>
+
+          <div class="cpf"style="float: left; text-align: left; margin-right: -50px;">
+          <label for="" >CPF:</label>
+          <input name="cpf" type="text" id="cpf" #cpfInput required ngModel>
+          </div>
+
+
+          <div class="idade" style="float: right; text-align: left;  ">
+          <label for="">Idade:</label>
+          <input name="idade" type="number" id="idade" #idadeInput required ngModel>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="endereco" style="text-align: left;">
+          <label for=""><br>Endereço:</label>
+          <input name="endereco" type="text" id="endereco" #enderecoInput required ngModel>
+          </div>  
+
+          <button class="">Cadastrar</button>
+        </form>
+    </section>
+  </div>
+</section>

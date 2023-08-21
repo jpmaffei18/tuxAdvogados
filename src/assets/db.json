@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nome": "Daniel",
+      "sobrenome": "Nogueira",
+      "cpf": "12345678910",
+      "idade": 72,
+      "endereco": "Rua Almeida",
+      "id": 4
+    },
+    {
+      "nome": "João Pedro",
+      "sobrenome": "Maffei",
+      "cpf": "12345678911",
+      "idade": 19,
+      "endereco": "Rua Vieira",
+      "id": 5
+    }
+  ]
+}
