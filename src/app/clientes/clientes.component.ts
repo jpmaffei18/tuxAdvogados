@@ -17,6 +17,6 @@ export class ClientesComponent implements OnInit{
   }
 
   obterUsuariosMaisVelhos() {
-    return this.usuarios.filter(usuario => usuario.idade > 60);
+    return this.usuarios.filter (cliente => cliente.idade);
   }
 }

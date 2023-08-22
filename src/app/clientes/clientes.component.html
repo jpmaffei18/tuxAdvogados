@@ -11,14 +11,18 @@
 <br>
 <br>
 
-
 <h3>Clientes com mais de 60 anos Cadastrados:</h3>
-<ul class="clientes-list">
-  <li *ngFor="let cliente of usuarios" class="cliente-item">
+<ul *ngFor="let cliente of usuarios" class="clientes-list">
+  <li class="cliente-item" *ngIf="cliente.idade >= 60">
     ID: {{ cliente.id }} | Nome: {{ cliente.nome }} {{ cliente.sobrenome }} | CPF: {{ cliente.cpf }} | Idade: {{ cliente.idade }} | Endereço: {{ cliente.endereco }}
   </li>
-</ul>
+
+  </ul>
+
 <br>
 
+
+
 </section>
+
 <br>

@@ -33,13 +33,7 @@ export class FormComponent {
 
     /*Método de cadastro */
     cadastro(form:any){
-      // console.log(form.value);
-      // alert("URL: \n"+ form.value.url + "\n  Título: " + form.value.titulo);
-      
-      // this.dados = form.value 
-      
 
-      // Utilizando a ferramenta hhtclient para cadastro 
 
       this.leo_Voyage.post('http://localhost:3000/clientes', form.value, this.httpOptions).subscribe();
     
